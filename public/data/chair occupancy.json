@@ -1,0 +1,311 @@
+{
+    "testcase": "Chair_occupancy",
+    "video_name": "chair_occupancy_demo.mp4",
+    "duration_seconds": 43,
+    "processed_video_url": "/outputs/chair_occupancy_processed.mp4",
+    "analytics": {
+        "total_chairs": 2,
+        "chair_1": {
+            "status": "empty",
+            "occupied_duration_seconds": 0,
+            "empty_duration_seconds": 43,
+            "occupancy_percentage": 0,
+            "vacancy_percentage": 100
+        },
+        "chair_2": {
+            "status": "occupied",
+            "occupied_duration_seconds": 43,
+            "empty_duration_seconds": 0,
+            "occupancy_percentage": 100,
+            "vacancy_percentage": 0
+        }
+    },
+    "time_series": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "chair_1_occupied": false,
+            "chair_2_occupied": false
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:02",
+            "second": 2,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:04",
+            "second": 4,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:06",
+            "second": 6,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:07",
+            "second": 7,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:09",
+            "second": 9,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:11",
+            "second": 11,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:12",
+            "second": 12,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:13",
+            "second": 13,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:14",
+            "second": 14,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:15",
+            "second": 15,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:16",
+            "second": 16,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:17",
+            "second": 17,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:18",
+            "second": 18,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:19",
+            "second": 19,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:20",
+            "second": 20,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:21",
+            "second": 21,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:22",
+            "second": 22,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:23",
+            "second": 23,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:24",
+            "second": 24,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:25",
+            "second": 25,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:26",
+            "second": 26,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:27",
+            "second": 27,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:28",
+            "second": 28,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:29",
+            "second": 29,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:30",
+            "second": 30,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:31",
+            "second": 31,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:32",
+            "second": 32,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:33",
+            "second": 33,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:34",
+            "second": 34,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:35",
+            "second": 35,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:36",
+            "second": 36,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:37",
+            "second": 37,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:38",
+            "second": 38,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:39",
+            "second": 39,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:40",
+            "second": 40,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:41",
+            "second": 41,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:42",
+            "second": 42,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        },
+        {
+            "timestamp": "00:00:43",
+            "second": 43,
+            "chair_1_occupied": false,
+            "chair_2_occupied": true
+        }
+    ],
+    "events": [
+        {
+            "timestamp": "00:00:00",
+            "type": "chair_empty",
+            "chair_id": "chair_1",
+            "status": "empty",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:00",
+            "type": "chair_occupied",
+            "chair_id": "chair_2",
+            "status": "occupied",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:43",
+            "type": "video_completed",
+            "summary": "Chair 1 remained empty for 43 seconds. Chair 2 remained occupied for 43 seconds.",
+            "severity": "info"
+        }
+    ]
+}

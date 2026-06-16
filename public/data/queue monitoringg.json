@@ -1,0 +1,772 @@
+{
+  "Testcase1": {
+    "testcase": "Queue_monitoring",
+    "video_name": "queue_monitoring_demo_43_sec.mp4",
+    "duration_seconds": 43,
+    "processed_video_url": "/outputs/queue_monitoring_43_sec_processed.mp4",
+    "analytics": {
+        "queue_detected": true,
+        "current_queue_length": 1,
+        "min_queue_length": 1,
+        "max_queue_length": 2,
+        "average_queue_length": 1.61,
+        "queue_length_2_duration_seconds": 27,
+        "queue_length_1_duration_seconds": 17,
+        "queue_build_up_events": 2,
+        "abnormal_queue_events": 0,
+        "traffic_status": "low"
+    },
+    "time_series": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:02",
+            "second": 2,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:04",
+            "second": 4,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:06",
+            "second": 6,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:07",
+            "second": 7,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:09",
+            "second": 9,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:11",
+            "second": 11,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:12",
+            "second": 12,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:13",
+            "second": 13,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:14",
+            "second": 14,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:15",
+            "second": 15,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:16",
+            "second": 16,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:17",
+            "second": 17,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:18",
+            "second": 18,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:19",
+            "second": 19,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:20",
+            "second": 20,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:21",
+            "second": 21,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:22",
+            "second": 22,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:23",
+            "second": 23,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:24",
+            "second": 24,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:25",
+            "second": 25,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:26",
+            "second": 26,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:27",
+            "second": 27,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:28",
+            "second": 28,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:29",
+            "second": 29,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:30",
+            "second": 30,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:31",
+            "second": 31,
+            "queue_detected": true,
+            "queue_length": 2
+        },
+        {
+            "timestamp": "00:00:32",
+            "second": 32,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:33",
+            "second": 33,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:34",
+            "second": 34,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:35",
+            "second": 35,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:36",
+            "second": 36,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:37",
+            "second": 37,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:38",
+            "second": 38,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:39",
+            "second": 39,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:40",
+            "second": 40,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:41",
+            "second": 41,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:42",
+            "second": 42,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:43",
+            "second": 43,
+            "queue_detected": true,
+            "queue_length": 1
+        }
+    ],
+    "events": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "type": "queue_length_changed",
+            "queue_length": 2,
+            "summary": "Queue length is 2 people.",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "type": "queue_length_changed",
+            "queue_length": 1,
+            "summary": "Queue length reduced to 1 person.",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "type": "queue_length_changed",
+            "queue_length": 2,
+            "summary": "Queue length increased to 2 people.",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:32",
+            "second": 32,
+            "type": "queue_length_changed",
+            "queue_length": 1,
+            "summary": "Queue length reduced to 1 person.",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:43",
+            "second": 43,
+            "type": "video_completed",
+            "summary": "Queue had 2 people during 00:00:00-00:00:02 and 00:00:08-00:00:29  00:00:30-00:00:31 . At all other timestamps, queue length was 1 person.",
+            "severity": "info"
+        }
+    ]
+  },
+  "Testcase2": {
+    "testcase": "Queue_monitoring",
+    "video_name": "queue_monitoring_demo_1min_7sec.mp4",
+    "duration_seconds": 67,
+    "processed_video_url": "/outputs/queue_monitoring_1min_7sec_processed.mp4",
+    "analytics": {
+        "queue_detected": true,
+        "current_queue_length": 1,
+        "min_queue_length": 1,
+        "max_queue_length": 1,
+        "average_queue_length": 1,
+        "queue_length_1_duration_seconds": 67,
+        "queue_length_2_duration_seconds": 0,
+        "queue_build_up_events": 0,
+        "abnormal_queue_events": 0,
+        "traffic_status": "low"
+    },
+    "time_series": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:02",
+            "second": 2,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:04",
+            "second": 4,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:06",
+            "second": 6,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:07",
+            "second": 7,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:09",
+            "second": 9,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:11",
+            "second": 11,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:12",
+            "second": 12,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:13",
+            "second": 13,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:14",
+            "second": 14,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:15",
+            "second": 15,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:16",
+            "second": 16,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:17",
+            "second": 17,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:18",
+            "second": 18,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:19",
+            "second": 19,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:20",
+            "second": 20,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:21",
+            "second": 21,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:22",
+            "second": 22,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:23",
+            "second": 23,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:24",
+            "second": 24,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:25",
+            "second": 25,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:26",
+            "second": 26,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:27",
+            "second": 27,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:28",
+            "second": 28,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:29",
+            "second": 29,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:30",
+            "second": 30,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:31",
+            "second": 31,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:32",
+            "second": 32,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:33",
+            "second": 33,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:34",
+            "second": 34,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:35",
+            "second": 35,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:36",
+            "second": 36,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:37",
+            "second": 37,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:38",
+            "second": 38,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:39",
+            "second": 39,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:40",
+            "second": 40,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:41",
+            "second": 41,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:42",
+            "second": 42,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:43",
+            "second": 43,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:44",
+            "second": 44,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:45",
+            "second": 45,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:46",
+            "second": 46,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:47",
+            "second": 47,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:48",
+            "second": 48,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:49",
+            "second": 49,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:50",
+            "second": 50,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:51",
+            "second": 51,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:52",
+            "second": 52,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:53",
+            "second": 53,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:54",
+            "second": 54,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:55",
+            "second": 55,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:56",
+            "second": 56,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:57",
+            "second": 57,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:58",
+            "second": 58,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:00:59",
+            "second": 59,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:00",
+            "second": 60,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:01",
+            "second": 61,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:02",
+            "second": 62,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:03",
+            "second": 63,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:04",
+            "second": 64,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:05",
+            "second": 65,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:06",
+            "second": 66,
+            "queue_detected": true,
+            "queue_length": 1
+        },
+        {
+            "timestamp": "00:01:07",
+            "second": 67,
+            "queue_detected": true,
+            "queue_length": 1
+        }
+    ],
+    "events": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "type": "queue_started",
+            "queue_length": 1,
+            "summary": "Queue length is 1 person from the start of the video.",
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:01:07",
+            "second": 67,
+            "type": "video_completed",
+            "summary": "Queue length remained 1 person for the entire 1 minute 7 second video.",
+            "severity": "info"
+        }
+    ]
+  }
+}

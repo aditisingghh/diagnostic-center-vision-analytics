@@ -1,0 +1,425 @@
+{
+    "testcase": "waiting_area_count",
+    "video_name": "tobeused.mp4",
+    "duration_seconds": 52,
+    "processed_video_url": "/outputs/output_waiting_count.mp4",
+    "analytics": {
+        "current_people_count": 7,
+        "max_people_at_once": 8,
+        "min_people_count": 0,
+        "average_people_count": 6.28,
+        "overcrowding_threshold": 5,
+        "overcrowding_events": 1,
+        "total_logged_seconds": 53,
+        "overcrowded_duration_seconds": 52,
+        "normal_duration_seconds": 1
+    },
+    "time_series": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "waiting_area_count": 0,
+            "overcrowded": false
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:02",
+            "second": 2,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:04",
+            "second": 4,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:06",
+            "second": 6,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:07",
+            "second": 7,
+            "waiting_area_count": 5,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:09",
+            "second": 9,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:11",
+            "second": 11,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:12",
+            "second": 12,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:13",
+            "second": 13,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:14",
+            "second": 14,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:15",
+            "second": 15,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:16",
+            "second": 16,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:17",
+            "second": 17,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:18",
+            "second": 18,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:19",
+            "second": 19,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:20",
+            "second": 20,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:21",
+            "second": 21,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:22",
+            "second": 22,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:23",
+            "second": 23,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:24",
+            "second": 24,
+            "waiting_area_count": 8,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:25",
+            "second": 25,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:26",
+            "second": 26,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:27",
+            "second": 27,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:28",
+            "second": 28,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:29",
+            "second": 29,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:30",
+            "second": 30,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:31",
+            "second": 31,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:32",
+            "second": 32,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:33",
+            "second": 33,
+            "waiting_area_count": 6,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:34",
+            "second": 34,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:35",
+            "second": 35,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:36",
+            "second": 36,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:37",
+            "second": 37,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:38",
+            "second": 38,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:39",
+            "second": 39,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:40",
+            "second": 40,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:41",
+            "second": 41,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:42",
+            "second": 42,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:43",
+            "second": 43,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:44",
+            "second": 44,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:45",
+            "second": 45,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:46",
+            "second": 46,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:47",
+            "second": 47,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:48",
+            "second": 48,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:49",
+            "second": 49,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:50",
+            "second": 50,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:51",
+            "second": 51,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        },
+        {
+            "timestamp": "00:00:52",
+            "second": 52,
+            "waiting_area_count": 7,
+            "overcrowded": true
+        }
+    ],
+    "events": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "type": "initial_count",
+            "count": 0,
+            "overcrowded": false,
+            "severity": "info"
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "type": "waiting_area_count_changed",
+            "previous_count": 0,
+            "current_count": 5,
+            "overcrowded": true,
+            "severity": "high"
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "type": "overcrowding_started",
+            "count": 5,
+            "threshold": 5,
+            "severity": "high"
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "type": "waiting_area_count_changed",
+            "previous_count": 5,
+            "current_count": 6,
+            "overcrowded": true,
+            "severity": "medium"
+        },
+        {
+            "timestamp": "00:00:21",
+            "second": 21,
+            "type": "waiting_area_count_changed",
+            "previous_count": 6,
+            "current_count": 7,
+            "overcrowded": true,
+            "severity": "medium"
+        },
+        {
+            "timestamp": "00:00:24",
+            "second": 24,
+            "type": "waiting_area_count_changed",
+            "previous_count": 7,
+            "current_count": 8,
+            "overcrowded": true,
+            "severity": "high"
+        },
+        {
+            "timestamp": "00:00:25",
+            "second": 25,
+            "type": "waiting_area_count_changed",
+            "previous_count": 8,
+            "current_count": 7,
+            "overcrowded": true,
+            "severity": "medium"
+        },
+        {
+            "timestamp": "00:00:28",
+            "second": 28,
+            "type": "waiting_area_count_changed",
+            "previous_count": 7,
+            "current_count": 6,
+            "overcrowded": true,
+            "severity": "medium"
+        },
+        {
+            "timestamp": "00:00:34",
+            "second": 34,
+            "type": "waiting_area_count_changed",
+            "previous_count": 6,
+            "current_count": 7,
+            "overcrowded": true,
+            "severity": "medium"
+        },
+        {
+            "timestamp": "00:00:52",
+            "second": 52,
+            "type": "video_completed",
+            "summary": "Waiting area count started at 0, became overcrowded at 00:00:01 with 5 people, peaked at 8 people at 00:00:24, and ended with 7 people.",
+            "severity": "info"
+        }
+    ]
+}

@@ -1,0 +1,764 @@
+{
+"events": [
+    {
+        "timestamp": "00:00:00",
+        "second": 0,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "EMPTY",
+            "occupied": false,
+            "working": false,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "EMPTY",
+            "occupied": false,
+            "working": false,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "info"
+    },
+    {
+        "timestamp": "00:00:01",
+        "second": 1,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:02",
+        "second": 2,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:03",
+        "second": 3,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:04",
+        "second": 4,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:05",
+        "second": 5,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:06",
+        "second": 6,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED + HANDS MOVING"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:07",
+        "second": 7,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:08",
+        "second": 8,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "EMPTY",
+            "occupied": false,
+            "working": false,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:09",
+        "second": 9,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:10",
+        "second": 10,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:11",
+        "second": 11,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:12",
+        "second": 12,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:13",
+        "second": 13,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:14",
+        "second": 14,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:15",
+        "second": 15,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "low"
+    },
+    {
+        "timestamp": "00:00:16",
+        "second": 16,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:17",
+        "second": 17,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:18",
+        "second": 18,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:19",
+        "second": 19,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:20",
+        "second": 20,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:21",
+        "second": 21,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:22",
+        "second": 22,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:23",
+        "second": 23,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:24",
+        "second": 24,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:25",
+        "second": 25,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:26",
+        "second": 26,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HANDS MOVING"
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:27",
+        "second": 27,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:28",
+        "second": 28,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:29",
+        "second": 29,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:30",
+        "second": 30,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:31",
+        "second": 31,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:32",
+        "second": 32,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:33",
+        "second": 33,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:34",
+        "second": 34,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:35",
+        "second": 35,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:36",
+        "second": 36,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    },
+    {
+        "timestamp": "00:00:37",
+        "second": 37,
+        "type": "status_snapshot",
+        "chair_1": {
+            "status": "NOT WORKING",
+            "occupied": true,
+            "working": false,
+            "not_working": true,
+            "reason": "HEAD TURNED"
+        },
+        "chair_2": {
+            "status": "WORKING",
+            "occupied": true,
+            "working": true,
+            "not_working": false,
+            "reason": ""
+        },
+        "severity": "medium"
+    }
+]
+}

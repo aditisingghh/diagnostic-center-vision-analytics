@@ -1,0 +1,349 @@
+{
+  "Testcase1": {
+    "testcase": "footfallAnalysis",
+    "video_name": "footfall_demo.mp4",
+    "duration_seconds": 10,
+    "processed_video_url": "/outputs/footfall_processed.mp4",
+    "analytics": {
+        "total_entries": 1,
+        "total_exits": 0,
+        "net_occupancy": 1,
+        "current_inside_count": 1,
+        "unique_people_detected": 1,
+        "first_entry_timestamp": "00:00:01",
+        "traffic_status": "low"
+    },
+    "time_series": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "person_detected": false,
+            "people_count": 0,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 0
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 1,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:02",
+            "second": 2,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:04",
+            "second": 4,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:06",
+            "second": 6,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:07",
+            "second": 7,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:09",
+            "second": 9,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        }
+    ],
+    "events": [
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "type": "person_entered",
+            "track_id": 1,
+            "count": 1,
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "type": "video_completed",
+            "summary": "One person was detected entering at 00:00:01 and remained visible until the end of the 10 second video.",
+            "severity": "info"
+        }
+    ]
+  },
+  "Testcase2": {
+    "testcase": "footfallAnalysis",
+    "video_name": "footfall_demo_19_sec.mp4",
+    "duration_seconds": 19,
+    "processed_video_url": "/outputs/footfall_19_sec_processed.mp4",
+    "analytics": {
+        "total_entries": 1,
+        "total_exits": 0,
+        "net_occupancy": 1,
+        "current_inside_count": 1,
+        "unique_people_detected": 1,
+        "first_entry_timestamp": "00:00:05",
+        "traffic_status": "low"
+    },
+    "time_series": [
+        {
+            "timestamp": "00:00:00",
+            "second": 0,
+            "person_detected": false,
+            "people_count": 0,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 0
+        },
+        {
+            "timestamp": "00:00:01",
+            "second": 1,
+            "person_detected": false,
+            "people_count": 0,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 0
+        },
+        {
+            "timestamp": "00:00:02",
+            "second": 2,
+            "person_detected": false,
+            "people_count": 0,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 0
+        },
+        {
+            "timestamp": "00:00:03",
+            "second": 3,
+            "person_detected": false,
+            "people_count": 0,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 0
+        },
+        {
+            "timestamp": "00:00:04",
+            "second": 4,
+            "person_detected": false,
+            "people_count": 0,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 0
+        },
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 1,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:06",
+            "second": 6,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:07",
+            "second": 7,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:08",
+            "second": 8,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:09",
+            "second": 9,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:10",
+            "second": 10,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:11",
+            "second": 11,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:12",
+            "second": 12,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:13",
+            "second": 13,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:14",
+            "second": 14,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:15",
+            "second": 15,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:16",
+            "second": 16,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:17",
+            "second": 17,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:18",
+            "second": 18,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        },
+        {
+            "timestamp": "00:00:19",
+            "second": 19,
+            "person_detected": true,
+            "people_count": 1,
+            "entries": 0,
+            "exits": 0,
+            "inside_count": 1
+        }
+    ],
+    "events": [
+        {
+            "timestamp": "00:00:05",
+            "second": 5,
+            "type": "person_entered",
+            "track_id": 1,
+            "count": 1,
+            "severity": "low"
+        },
+        {
+            "timestamp": "00:00:19",
+            "second": 19,
+            "type": "video_completed",
+            "summary": "Total count was initialized as 0. One person entered at 00:00:05, increasing the count to 1, and remained visible until the end of the 19 second video.",
+            "severity": "info"
+        }
+    ]
+  }
+}
