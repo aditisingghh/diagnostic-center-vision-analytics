@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BarChart3, Users, Footprints, Armchair, User2, AlertCircle, Settings, Menu, X, LayoutDashboard } from 'lucide-react';
-import { useState } from 'react';
+import { BarChart3, Users, Footprints, Armchair, User2, AlertCircle, Settings, Menu, X, LayoutDashboard, ScanFace } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 const navigationItems = [
   { id: 'overview', label: 'Overview', href: '/dashboard', icon: LayoutDashboard },
@@ -12,13 +12,53 @@ const navigationItems = [
   { id: 'footfall', label: 'Footfall Analysis', href: '/dashboard/footfall-analysis', icon: Footprints },
   { id: 'chair', label: 'Chair Occupancy', href: '/dashboard/chair-occupancy', icon: Armchair },
   { id: 'employee', label: 'Employee Analytics', href: '/dashboard/employee-analytics', icon: User2 },
+  { id: 'facial', label: 'Facial Analytics', href: '/dashboard/facial-analytics', icon: ScanFace },
   { id: 'alerts', label: 'Alerts', href: '/dashboard/alerts', icon: AlertCircle },
   { id: 'settings', label: 'Settings', href: '/dashboard/settings', icon: Settings },
 ];
 
+const alertInboxStorageKey = 'diagnostic-center-demo-alerts';
+const alertInboxRefreshMarkerKey = 'diagnostic-center-demo-alerts-refresh-marker';
+
+const getStoredAlertCount = () => {
+  try {
+    const storedAlerts = window.localStorage.getItem(alertInboxStorageKey);
+    const parsedAlerts = storedAlerts ? JSON.parse(storedAlerts) : [];
+    return Array.isArray(parsedAlerts) ? parsedAlerts.length : 0;
+  } catch {
+    return 0;
+  }
+};
+
+const clearAlertsOnRefresh = () => {
+  const navigationEntry = window.performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined;
+  const pageLoadId = String(window.performance.timeOrigin);
+
+  if (navigationEntry?.type === 'reload' && window.sessionStorage.getItem(alertInboxRefreshMarkerKey) !== pageLoadId) {
+    window.localStorage.removeItem(alertInboxStorageKey);
+    window.sessionStorage.setItem(alertInboxRefreshMarkerKey, pageLoadId);
+    window.dispatchEvent(new Event('diagnostic-center-demo-alerts-updated'));
+  }
+};
+
 export function Sidebar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const [alertCount, setAlertCount] = useState(0);
+
+  useEffect(() => {
+    const syncAlertCount = () => setAlertCount(getStoredAlertCount());
+
+    clearAlertsOnRefresh();
+    syncAlertCount();
+    window.addEventListener('storage', syncAlertCount);
+    window.addEventListener('diagnostic-center-demo-alerts-updated', syncAlertCount);
+
+    return () => {
+      window.removeEventListener('storage', syncAlertCount);
+      window.removeEventListener('diagnostic-center-demo-alerts-updated', syncAlertCount);
+    };
+  }, []);
 
   return (
     <>
@@ -60,6 +100,17 @@ export function Sidebar() {
               >
                 <Icon className="w-5 h-5" />
                 <span className="text-sm font-medium">{item.label}</span>
+                {item.id === 'alerts' && alertCount > 0 && (
+                  <span
+                    className={`ml-auto flex h-6 min-w-6 items-center justify-center rounded-full px-2 text-xs font-bold ${
+                      isActive
+                        ? 'bg-white text-blue-700'
+                        : 'bg-orange-100 text-orange-700 dark:bg-orange-950/50 dark:text-orange-300'
+                    }`}
+                  >
+                    {alertCount}
+                  </span>
+                )}
               </Link>
             );
           })}

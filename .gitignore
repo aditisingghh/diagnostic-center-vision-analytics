@@ -1,5 +1,9 @@
 node_modules/
 .next/
 .vercel/
+.DS_Store
+downloads/
 public/videos/
 public/vedios/
+public/videos/
+public/videos/

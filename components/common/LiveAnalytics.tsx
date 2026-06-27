@@ -9,7 +9,22 @@ interface LiveAnalyticsProps {
     [key: string]: string | number;
   };
   duration?: string;
+  durationSeconds?: number;
+  currentSecond?: number;
+  statusLabel?: string;
 }
+
+const parseDuration = (duration: string) => {
+  const [hours = '0', minutes = '0', seconds = '0'] = duration.split(':');
+  return Number(hours) * 3600 + Number(minutes) * 60 + Number(seconds);
+};
+
+const formatTime = (seconds: number) => {
+  const safeSeconds = Math.max(0, Math.floor(seconds));
+  const mins = Math.floor(safeSeconds / 60);
+  const secs = safeSeconds % 60;
+  return `00:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+};
 
 export function LiveAnalytics({ 
   title = 'LIVE ANALYTICS',
@@ -17,27 +32,29 @@ export function LiveAnalytics({
     'Chair 1 Status': 'Empty',
     'Chair 2 Status': 'Occupied',
   },
-  duration = '00:00:43'
+  duration = '00:00:43',
+  durationSeconds,
+  currentSecond,
+  statusLabel = 'Video Sync Active',
 }: LiveAnalyticsProps) {
   const [elapsed, setElapsed] = useState(0);
-  const [isConnected, setIsConnected] = useState(true);
+  const totalSeconds = durationSeconds ?? parseDuration(duration);
+  const displayedSecond = currentSecond ?? elapsed;
 
   useEffect(() => {
+    if (currentSecond !== undefined) {
+      return;
+    }
+
     const interval = setInterval(() => {
       setElapsed((prev) => {
-        const seconds = (prev + 1) % parseInt(duration.split(':')[2], 10);
+        const seconds = (prev + 1) % Math.max(1, totalSeconds);
         return seconds;
       });
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [duration]);
-
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `00:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-  };
+  }, [currentSecond, totalSeconds]);
 
   return (
     <div className="w-full bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-800 p-6 shadow-md">
@@ -59,7 +76,7 @@ export function LiveAnalytics({
         </p>
         <div className="bg-slate-50 dark:bg-slate-800 rounded-lg p-4">
           <p className="text-2xl font-mono font-bold text-blue-600 dark:text-blue-400">
-            {formatTime(elapsed)} / {duration}
+            {formatTime(displayedSecond)} / {formatTime(totalSeconds)}
           </p>
         </div>
       </div>
@@ -87,8 +104,8 @@ export function LiveAnalytics({
         <div className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800 rounded-lg p-4">
           <CheckCircle className="w-5 h-5 text-green-500" />
           <div>
-            <p className="text-sm font-semibold text-slate-900 dark:text-white">AI Feed Active</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400">Real-time data sync enabled</p>
+            <p className="text-sm font-semibold text-slate-900 dark:text-white">{statusLabel}</p>
+            <p className="text-xs text-slate-500 dark:text-slate-400">Analytics update with the video timestamp</p>
           </div>
         </div>
       </div>
